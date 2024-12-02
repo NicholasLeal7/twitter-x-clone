@@ -1,0 +1,33 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    border-bottom: 2px solid var(--lighter-black-1);
+    align-items: center;
+
+    .title {
+        font-size: 24px;
+        font-weight: 400;
+        display: none;
+    }
+
+    .bars {
+        cursor: pointer;
+
+        svg {
+            font-size: 1.5rem;
+        }
+    }
+}
+
+@media screen and (min-width: 1040px) {
+
+    header .bars,
+    header .logo {
+        display: none;
+    }
+
+    header .title {
+        display: block;
+    }
+}

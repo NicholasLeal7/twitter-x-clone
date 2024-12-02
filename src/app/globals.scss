@@ -6,6 +6,8 @@
     list-style: none;
     font-size: 16px;
     font-family: 'Rubik', 'sans-serif';
+    box-sizing: border-box;
+    text-decoration: none;
 }
 
 :root {
@@ -21,4 +23,21 @@
 body {
     background-color: var(--black);
     color: var(--white);
+}
+
+@keyframes pulse {
+    0% {
+        background-color: gray;
+        /* Cor inicial - cinza claro */
+    }
+
+    50% {
+        background-color: #b9b8b8;
+        /* Cor intermediária - um tom mais claro */
+    }
+
+    100% {
+        background-color: gray;
+        /* Cor final - volta ao cinza inicial */
+    }
 }

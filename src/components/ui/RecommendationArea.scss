@@ -1,0 +1,18 @@
+.recommendation-area {
+    border-radius: 24px;
+    background-color: var(--lighter-black-2);
+    height: fit-content;
+    padding: 1.5rem;
+
+    h2 {
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .items {
+        margin-top: 1.5rem;
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+}

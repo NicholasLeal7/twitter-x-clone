@@ -1,0 +1,56 @@
+.tweet-post {
+    display: flex;
+    padding: 1rem 1.75rem;
+    gap: 1.5rem;
+    border-bottom: 2px solid var(--lighter-black-1);
+
+    img {
+        width: 2.5rem;
+        height: 2.5rem;
+        border-radius: 50%;
+    }
+
+    .content {
+        flex: 1;
+
+        .type-content {
+            position: relative;
+            outline: none;
+            word-break: break-all;
+            font-size: 18px;
+            min-height: 56px;
+
+            &::before {
+                content: attr(data-placeholder);
+                position: absolute;
+                left: 0;
+                top: 0;
+                cursor: text;
+                color: var(--gray);
+                pointer-events: none;
+                font-size: 18px;
+            }
+
+            &:not(:empty)::before {
+                content: '';
+            }
+        }
+
+        .btn-area {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 0.5rem;
+
+            .upload svg {
+                width: 1.5rem;
+                height: 1.5rem;
+                cursor: pointer;
+            }
+
+            .send {
+                width: 7.5rem;
+            }
+        }
+    }
+}

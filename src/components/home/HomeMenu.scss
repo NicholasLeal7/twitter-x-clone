@@ -1,0 +1,43 @@
+.home-menu {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: black;
+    padding: 1.5rem;
+
+    .header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .circle-btn {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 3rem;
+            height: 3rem;
+            border-radius: 50%;
+            border: 2px solid var(--lighter-black-1);
+            cursor: pointer;
+        }
+    }
+
+    .search-bar {
+        margin: 2rem 0;
+    }
+
+    .nav-area {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+}
+
+@media screen and (min-width: 1040px) {
+    .home-menu {
+        display: none;
+    }
+}
