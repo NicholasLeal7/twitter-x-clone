@@ -1,0 +1,44 @@
+/*!********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[13].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[13].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[13].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[13].use[5]!./src/app/globals.scss ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 16px;
+  font-family: "Rubik", "sans-serif";
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+:root {
+  --black: #000;
+  --white: #fff;
+  --lighter-black-1: #161616;
+  --lighter-black-2: #212327;
+  --gray: #72767A;
+  --blue: #1D9BF0;
+  --red: #F4245E;
+}
+
+body {
+  background-color: var(--black);
+  color: var(--white);
+}
+
+@keyframes pulse {
+  0% {
+    background-color: gray;
+    /* Cor inicial - cinza claro */
+  }
+  50% {
+    background-color: #b9b8b8;
+    /* Cor intermediária - um tom mais claro */
+  }
+  100% {
+    background-color: gray;
+    /* Cor final - volta ao cinza inicial */
+  }
+}

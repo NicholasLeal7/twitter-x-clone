@@ -1,0 +1,39 @@
+{
+  "pages": {
+    "/(ui)/search/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/(ui)/search/page.css",
+      "static/chunks/app/(ui)/search/page.js"
+    ],
+    "/(ui)/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/(ui)/layout.css",
+      "static/chunks/app/(ui)/layout.js"
+    ],
+    "/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/layout.css",
+      "static/chunks/app/layout.js"
+    ],
+    "/(ui)/[slug]/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/(ui)/[slug]/page.css",
+      "static/chunks/app/(ui)/[slug]/page.js"
+    ],
+    "/(ui)/profile/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(ui)/profile/page.js"
+    ],
+    "/(ui)/tweet/[id]/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/(ui)/tweet/[id]/page.css",
+      "static/chunks/app/(ui)/tweet/[id]/page.js"
+    ]
+  }
+}

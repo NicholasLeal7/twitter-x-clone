@@ -1,0 +1,204 @@
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[13].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[13].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[13].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[13].use[5]!./src/components/tweet/TweetItem.scss ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.tweet-item {
+  display: flex;
+  padding: 1rem 1.75rem;
+  gap: 1.5rem;
+  border-bottom: 2px solid var(--lighter-black-1);
+}
+.tweet-item img {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+}
+.tweet-item .content {
+  flex: 1 1;
+}
+.tweet-item .content .user-info {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  column-gap: 0.75rem;
+}
+.tweet-item .content .user-info .name a {
+  font-weight: bold;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  color: var(--white);
+}
+.tweet-item .content .user-info .slug {
+  font-size: 0.75rem;
+  line-height: 1rem;
+  color: var(--gray);
+}
+.tweet-item .content .text {
+  padding: 1rem 0;
+}
+.tweet-item .content .img img {
+  width: 100%;
+  height: 100%;
+  max-height: 18rem;
+  border-radius: 1rem;
+}
+.tweet-item .content .btn-area {
+  display: flex;
+  margin-top: 1.5rem;
+  color: var(--gray);
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+.tweet-item .content .btn-area svg {
+  width: 1.5rem;
+  height: 1.5rem;
+  cursor: pointer;
+}
+.tweet-item .content .btn-area .field {
+  flex: 1 1;
+}
+.tweet-item .content .btn-area .field .field-inline {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--gray);
+  cursor: pointer;
+}
+.tweet-item .content .btn-area .field .field-inline.liked {
+  color: #f87171;
+}
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[13].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[13].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[13].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[13].use[5]!./src/components/ui/Button.scss ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.btn-default {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--white);
+  color: var(--black);
+  border-radius: 2.5rem;
+  font-weight: 500;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+.btn-default.lg {
+  height: 3.5rem;
+  font-size: 1.125rem;
+}
+.btn-default.md {
+  height: 2.5rem;
+  font-size: 1rem;
+}
+.btn-default.sm {
+  height: 1.75rem;
+  font-size: 0.75rem;
+}
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[13].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[13].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[13].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[13].use[5]!./src/app/(ui)/[slug]/page.scss ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.general-header-section {
+  border-bottom: 2px solid var(--lighter-black-1);
+}
+.general-header-section .cover {
+  background-color: var(--gray);
+  height: 7rem;
+  background-size: cover;
+  background-position: center;
+}
+.general-header-section .info {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  padding: 0 1.5rem;
+  margin-top: -3rem;
+}
+.general-header-section .info img {
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+}
+.general-header-section .info .btn-profile {
+  width: 8rem;
+}
+.general-header-section .info-content {
+  padding: 0 1.5rem;
+  margin-top: 1rem;
+}
+.general-header-section .info-content .name {
+  font-weight: bold;
+  font-size: 1.25rem;
+  line-height: 2rem;
+  color: var(--white);
+}
+.general-header-section .info-content .slug {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: var(--gray);
+}
+.general-header-section .info-content .bio {
+  padding: 1.25rem 0;
+  color: var(--gray);
+  font-size: 1rem;
+}
+.general-header-section .info-content .icon {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+.general-header-section .info-content .icon svg {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+.general-header-section .info-content .icon a {
+  color: #93c5fd;
+}
+.general-header-section .info-content .follow {
+  margin: 1.25rem 0;
+  display: flex;
+  gap: 1.5rem;
+  color: var(--gray);
+}
+.general-header-section .info-content .follow span {
+  color: var(--white);
+}
+/*!************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[13].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[13].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[13].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[13].use[5]!./src/components/ui/GeneralHeader.scss ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.general-header {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  padding: 1.5rem;
+}
+.general-header .general-header-name {
+  font-weight: bold;
+  font-size: 1rem;
+}
+.general-header .general-header-count {
+  font-size: 0.75rem;
+  color: var(--gray);
+}
+.general-header a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid var(--gray);
+  font-size: 3rem;
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+}
+.general-header a svg {
+  width: 1.5rem;
+  height: 1.5rem;
+  color: var(--white);
+}
+.general-header .content {
+  flex: 1 1;
+}
+/*!***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[13].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[13].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[13].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[13].use[5]!./src/components/profile/ProfileFeed.scss ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+

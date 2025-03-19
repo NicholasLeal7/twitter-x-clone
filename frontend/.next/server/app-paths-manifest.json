@@ -1,0 +1,5 @@
+{
+  "/(ui)/search/page": "app/(ui)/search/page.js",
+  "/(ui)/[slug]/page": "app/(ui)/[slug]/page.js",
+  "/(ui)/tweet/[id]/page": "app/(ui)/tweet/[id]/page.js"
+}
