@@ -1,0 +1,16 @@
+.tweet-page {
+
+    .back {
+        font-size: 1rem;
+        font-weight: bold;
+    }
+
+    .tweet {
+        border-top: 2px solid var(--lighter-black-1);
+    }
+
+    .reply {
+        border-top: 8px solid var(--lighter-black-1);
+        border-bottom: 8px solid var(--lighter-black-1);
+    }
+}

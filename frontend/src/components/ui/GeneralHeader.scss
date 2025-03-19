@@ -1,0 +1,37 @@
+.general-header {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    padding: 1.5rem;
+
+    .general-header-name {
+        font-weight: bold;
+        font-size: 1rem;
+    }
+
+    .general-header-count {
+        font-size: 0.75rem;
+        color: var(--gray);
+    }
+
+    a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid var(--gray);
+        font-size: 3rem;
+        border-radius: 50%;
+        width: 3rem;
+        height: 3rem;
+
+        svg {
+            width: 1.5rem;
+            height: 1.5rem;
+            color: var(--white);
+        }
+    }
+
+    .content {
+        flex: 1;
+    }
+}

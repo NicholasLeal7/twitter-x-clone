@@ -1,0 +1,22 @@
+.textarea {
+    display: flex;
+    align-items: center;
+    border: 2px solid var(--lighter-black-1);
+    border-radius: 24px;
+    transition: all .5s ease;
+
+    textarea {
+        flex: 1;
+        outline: none;
+        background: transparent;
+        height: 100%;
+        padding: 1.25rem;
+        border: none;
+        resize: none;
+        color: var(--white);
+    }
+
+    &:focus-within {
+        border: 2px solid var(--white);
+    }
+}

@@ -1,0 +1,44 @@
+.register-wrapper {
+    max-width: 480px;
+    width: 480px;
+    margin: auto;
+    padding: 0 1.5rem;
+    margin-top: 8rem;
+
+    h1 {
+        font-size: 32px;
+        font-weight: 500;
+        margin-top: 3rem;
+    }
+
+    .form-register {
+        margin-top: 3rem;
+        margin-bottom: 2.5rem;
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .signin {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0.5rem;
+        font-size: 20px;
+
+        span {
+            font-weight: 400;
+            color: var(--gray);
+        }
+
+        a {
+            text-decoration: none;
+            font-weight: 500;
+            color: var(--white);
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+}

@@ -1,0 +1,45 @@
+.input-box {
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+    border-radius: 3rem;
+    border: 2px solid var(--lighter-black-1);
+    padding: 0 1.5rem;
+    transition: all .3s ease;
+    gap: 1rem;
+
+    input {
+        border: none;
+        outline: none;
+        background-color: transparent;
+        height: 100%;
+        color: var(--white);
+        font-size: 18px;
+        flex: 1;
+
+        &::placeholder {
+            font-weight: 400;
+            color: var(--gray);
+        }
+    }
+
+    .icon {
+        font-size: 1.5rem;
+        cursor: pointer;
+        color: var(--gray);
+        transition: all .3s ease;
+
+        &:hover {
+            color: var(--white);
+        }
+    }
+
+    &:focus-within {
+        border: 2px solid var(--white);
+    }
+
+    &.filled {
+        background-color: var(--lighter-black-2);
+        border-color: var(--lighter-black-2);
+    }
+}

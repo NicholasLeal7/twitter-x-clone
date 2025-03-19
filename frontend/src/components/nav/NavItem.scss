@@ -1,0 +1,26 @@
+.nav-item {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    opacity: 0.5;
+    transition: all .3s ease;
+    padding: 0.75rem 0;
+
+    .icon {
+        width: 1.5rem;
+        height: auto;
+        color: var(--white);
+    }
+
+    span {
+        color: var(--white);
+        font-size: 18px;
+        font-weight: 500;
+        text-decoration: none;
+    }
+
+    &:hover,
+    &.active {
+        opacity: 1.0;
+    }
+}
