@@ -8,4 +8,4 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-I finished frontend, now i will start the back
+I finished frontend, now i will start the back, soon.
